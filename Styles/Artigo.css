@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+:root {
+
+    --cor1: #FFECC7;
+    --cor2: #E0CCC5;
+    --cor3: #F7E6F5;
+    --cor4: #9794a8;
+    --cor5: #F1F6F8;
+    --fontepadrao: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+body {
+    font-family: var(--fontepadrao);
+}
+
+header > div {
+    margin-bottom: -50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    background-color: var(--cor5);
+}
+
+header > div > h1 {
+    display: inline-block;
+    color: black;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+nav {
+    display: inline-block;
+    margin-top: -100px;
+    background-color: var(--cor5);
+}
+
+nav > a {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    padding-top: 100px;
+    transition: text-shadow .5s;
+    margin-left: 15px;
+}
+nav > a:hover {
+    text-shadow: .5px .5px .5px;
+    transition: text-shadow .5s;
+}
+
+main {
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 10px;
+}
+
+
+.TituloArtigo {
+    padding-top: 100px;
+    position: relative;
+    padding-left: 15%;
+    font-size: 275%;
+}
+
+.Artigo {
+    font-size: 20px;
+    position: relative; left: 20%;
+    margin-right: 40%;
+}
+
+.Artigo > p {
+    white-space: normal;
+}
+
+.Autor {
+    margin: auto;
+    display: inline-block;
+    font-size: 30px;
+    /* margin-left: 40%; */
+    text-align: right;
+    line-height: 0px;
+    width: 95%;
+}
+
+.Autor > ul > img {
+    display: inline-block;
+    min-height: 10%;
+    max-width: 50px;
+}  
+
+.Autor > ul > div > class {
+    font-size: 60%;
+}
+
+.Autor > ul > div {
+    display: inline-block;
+}
+
+.Autor > ul > div > p {
+    font-size: 50%;
+    padding-bottom: 30px;
+    text-align: end;
+}
+
+.Autor > ul > div > a {
+    font-size: 60%;
+    text-decoration: none;
+    color: black;
+    transition: text-shadow .5s;
+}
+
+.Autor > ul > div > a:hover {
+    text-shadow: .1px .1px .1px;
+    transition: text-shadow .5s;
+}
+
+.OutrosArtigos {
+    margin: auto;
+    margin-left: 5%;
+    line-height: 10px;
+    margin-bottom: 100px;
+}
+
+.OutrosArtigos > div {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.OutrosArtigos > div > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: text-shadow .5s;
+}
+
+.OutrosArtigos > div > a:hover {
+    text-shadow: .4px .4px .4px;
+    transition: text-shadow .5s;
+}
+
+.OutrosArtigos > div > p {
+    color: var(--cor4);
+    font-size: 20px;
+}
+
+.OutrosArtigos > div > p > a {
+    color: var(--cor4);
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0x 0px 0px;
+    transition: text-shadow .4s;
+}
+
+.OutrosArtigos > div > p > a:hover {
+    color: var(--cor4);
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: .4px .4px .4px;
+    transition: text-shadow .4s;
+}
+
+.ArtigosRelacionados {
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+footer > div {
+    background-color: var(--cor5);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: -100px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+}
